@@ -56,8 +56,8 @@ cũng cần giữ nguyên dữ liệu các node khi viết các hàm chỉ đọ
 
 | Thành phần | Kiểu | Ý nghĩa |
 | --- | --- | --- |
-| Product.id | std::string | Mã hàng, ví dụ SP001; phân biệt hoa/thường |
-| Product.name | std::string | Tên mặt hàng |
+| Product.id | string | Mã hàng, ví dụ SP001; phân biệt hoa/thường |
+| Product.name | string | Tên mặt hàng |
 | Product.price | long long | Đơn giá nguyên theo VND |
 | Product.quantity | int | Số lượng trong giỏ |
 | Node.data | Product | Thông tin mặt hàng của node |
