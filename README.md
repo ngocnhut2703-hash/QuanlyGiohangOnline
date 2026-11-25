@@ -106,7 +106,7 @@ Mỗi hàm chỉ được định nghĩa một lần trong toàn chương trình
 giá trị giả để che việc thiếu chức năng. Nếu gọi chúng trước khi bổ sung
 phần định nghĩa, bộ liên kết sẽ báo lỗi `undefined reference`.
 
-TV6 tạo `main.cpp` riêng ở thư mục gốc. Chạy mô phỏng trang giỏ hàng khởi tạo hàm 'main_ghep.cpp','mo_phong.cpp'.
+TV6 tạo `main.cpp` riêng ở thư mục gốc. Chạy mô phỏng trang giỏ hàng khởi tạo hàm 'main_ghep.cpp'.
 Khi ghép dự án, biên dịch tất cả file cài đặt cần dùng cùng `main.cpp`.
 
 ## 5. Tiêu chí hoàn thành phần TV1
