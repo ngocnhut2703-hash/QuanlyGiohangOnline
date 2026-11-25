@@ -84,7 +84,7 @@ Các quy tắc đề xuất để cả nhóm xác nhận:
 
 | Thành viên | Chữ ký hàm cần cài đặt | Quy ước |
 | --- | --- | --- |
-| TV1 |  
+| TV1 |  struct product() | khai báo ten hàm thống nhất trình tự biên dịch|
 | TV2 | bool Cart::addItem(const Product& product) | true khi thêm/cộng số lượng thành công; false nếu dữ liệu không hợp lệ hoặc số lượng/tổng tiền không thể biểu diễn; thất bại phải giữ nguyên giỏ |
 | TV3 | void Cart::displayCart() const | In thông tin, thành tiền, tổng tiền; xử lý giỏ trống |
 | TV3 | long long Cart::calculateTotal() const | Tổng giá × số lượng; giỏ trống trả 0; phát hiện tràn số |
