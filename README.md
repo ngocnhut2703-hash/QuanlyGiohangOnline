@@ -90,7 +90,7 @@ Các quy tắc đề xuất để cả nhóm xác nhận:
 | TV4 | bool Cart::updateQuantity(const std::string& id, int newQuantity) | true khi cập nhật; false nếu không tìm thấy, số lượng sai hoặc tổng tiền không thể biểu diễn; thất bại giữ nguyên giỏ |
 | TV4 | bool Cart::removeItem(const std::string& id) | true khi xóa; false nếu không tìm thấy ID |
 | TV5 | bool createOrder(const Cart& cart) | Hàm tự do đề xuất trong Order.h/Order.cpp; false nếu giỏ trống; true khi tạo/in đơn thành công |
-| TV6 | int main() | Viết menu, kiểm tra nhập liệu và tích hợp |
+| TV6 | int main() | Viết menu, kiểm tra nhập liệu và tích hợp chạy mô phỏng giỏ hàng|
 
 Chữ ký tạo đơn của TV5 là đề xuất cần thống nhất. TV5 có thể đọc danh sách
 qua `getHead()` và gọi `calculateTotal()` sau khi TV3 cài đặt. Với chữ ký
